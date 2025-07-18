@@ -1,4 +1,19 @@
+# OS level 
+.DS_Store
+
+# packages
 node_modules
+
+# secrets
+.env
+.env.*
+
+# data
+*.db
+
+# cache/temporary files
 .astro/
+.keystone/
+
 # Keep environment variables out of version control
 .env
